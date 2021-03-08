@@ -132,7 +132,7 @@
         <div class="section" id="a-markdown-test">
 <h1><span class="section-number">4. </span>A markdown test<a class="headerlink" href="#a-markdown-test" title="Lien permanent vers ce titre">¶</a></h1>
 <p>It works.</p>
-<p><img alt="../images/2021-03-08-15-57-53.png" src="../images/2021-03-08-15-57-53.png"/></p>
+<p><img alt="../_images/2021-03-08-15-57-53.png" src="../_images/2021-03-08-15-57-53.png"/></p>
 </div>
 
       </article>
@@ -161,7 +161,7 @@
               <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
               <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
             |
-            <a class="muted-link" href="../_sources/xiaoou/annexe.md.txt"
+            <a class="muted-link" href="../sources/xiaoou/annexe.md.txt"
                rel="nofollow">
               Montrer le code source
             </a>

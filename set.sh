@@ -1,4 +1,4 @@
-rm -rf docs
+# rm -rf docs
 make html
 cd build/html
 grep -rl _static . | xargs sed -i -e "s/_static/static/g"

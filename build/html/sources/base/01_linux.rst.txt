@@ -1,8 +1,0 @@
-C 基础
-=========================
-
-.. runblock:: pycon
-
-    >>> for i in range(5):
-    ...    print(i)
-
