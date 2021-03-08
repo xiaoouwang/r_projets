@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>&lt;no title&gt; &mdash; Documentation R projets en lingustique informatique </title>
+  <title>4. A markdown test &mdash; Documentation R projets en lingustique informatique </title>
   
 
   
@@ -86,8 +86,14 @@
             
             
               <p class="caption"><span class="caption-text">Structure du site</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="index.html">Partie programmation fondamentale</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Partie programmation fondamentale</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="01_intro.html">1. Motivation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="01_basics.html">2. Fondamentaux de R</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_zipf.html">3. Loi de zipf</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">4. A markdown test</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -138,13 +144,13 @@
         
           <li><a href="index.html">Partie programmation fondamentale</a> &raquo;</li>
         
-      <li>&lt;no title&gt;</li>
+      <li><span class="section-number">4. </span>A markdown test</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../sources/xiaoou/annexe.md.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/xiaoou/annexe.md.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -181,8 +187,11 @@
     text-align: unset;
 }
 </style>
-<p># A markdown test</p>
-<p>![](img/annexe/2021-03-08-15-57-53.png)</p>
+<div class="section" id="a-markdown-test">
+<h1><span class="section-number">4. </span>A markdown test<a class="headerlink" href="#a-markdown-test" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Why it doesn”t work ?</p>
+<p><img alt="../_images/2021-03-08-15-57-53.png" src="../_images/2021-03-08-15-57-53.png" /></p>
+</div>
 
 
            </div>

@@ -33,6 +33,7 @@
         <script src="../static/underscore.js"></script>
         <script src="../static/doctools.js"></script>
         <script src="../static/translations.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     
     <script type="text/javascript" src="../static/js/theme.js"></script>
 
@@ -91,7 +92,8 @@
 <li class="toctree-l2"><a class="reference internal" href="01_linux.html">1. wino data related</a></li>
 <li class="toctree-l2"><a class="reference internal" href="02_ipython.html">2. wino pmi</a></li>
 <li class="toctree-l2"><a class="reference internal" href="03_numpy.html">3. wino-biblio</a></li>
-<li class="toctree-l2"><a class="reference internal" href="test.html">4. wino test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="test.html">4. this is a test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testR.html">5. a R example</a></li>
 </ul>
 </li>
 </ul>
@@ -148,7 +150,7 @@
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../sources/xiaoou/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/xiaoou/index.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -161,7 +163,31 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="xiaoou-wang">
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="section" id="xiaoou-wang">
 <h1>xiaoou wang<a class="headerlink" href="#xiaoou-wang" title="Lien permanent vers ce titre">¶</a></h1>
 <p>Ceci est une ébauche pour la documentation de winograd-fr.</p>
 <div class="toctree-wrapper compound">
@@ -169,7 +195,8 @@
 <li class="toctree-l1"><a class="reference internal" href="01_linux.html">1. wino data related</a></li>
 <li class="toctree-l1"><a class="reference internal" href="02_ipython.html">2. wino pmi</a></li>
 <li class="toctree-l1"><a class="reference internal" href="03_numpy.html">3. wino-biblio</a></li>
-<li class="toctree-l1"><a class="reference internal" href="test.html">4. wino test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="test.html">4. this is a test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="testR.html">5. a R example</a></li>
 </ul>
 </div>
 </div>
