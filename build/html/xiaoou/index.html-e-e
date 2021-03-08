@@ -91,6 +91,7 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">xiaoou wang</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="01_basics.html">1. Fondamentaux de R</a></li>
 <li class="toctree-l2"><a class="reference internal" href="02_zipf.html">2. Loi de zipf</a></li>
+<li class="toctree-l2"><a class="reference internal" href="annexe.html">3. A test on image</a></li>
 </ul>
 </li>
 </ul>
@@ -147,7 +148,7 @@
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../_sources/xiaoou/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../sources/xiaoou/index.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -200,6 +201,7 @@
 <li class="toctree-l2"><a class="reference internal" href="02_zipf.html#Colle-les-éléments-du-vecteur-texte-en-un-vecteur-de-caractères-de-longueur-1">2.3. Colle les éléments du vecteur texte en un vecteur de caractères de longueur 1</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="annexe.html">3. A test on image</a></li>
 </ul>
 </div>
 </div>
