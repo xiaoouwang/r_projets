@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js">
   <head><meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Recherche" href="search.html" /><link rel="next" title="Partie programmation fondamentale" href="xiaoou/index.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Recherche" href="search.html" /><link rel="next" title="Partie programmation fondamentale" href="basics/index.html" />
 
     <meta name="generator" content="sphinx-3.5.1, furo 2021.02.28.beta28"/>
         <title>Home - Documentation R projets en lingustique informatique</title>
@@ -108,10 +108,13 @@
 </form><div class="sidebar-scroll"><div class="sidebar-tree">
   <p class="caption"><span class="caption-text">Structure du site</span></p>
 <ul>
-<li class="toctree-l1 has-children"><a class="reference internal" href="xiaoou/index.html">Partie programmation fondamentale</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="xiaoou/01_basics.html">1. Fondamentaux de R</a></li>
-<li class="toctree-l2"><a class="reference internal" href="xiaoou/02_zipf.html">2. Loi de zipf</a></li>
-<li class="toctree-l2"><a class="reference internal" href="xiaoou/annexe.html">3. A markdown test</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="basics/index.html">Partie programmation fondamentale</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="basics/01_basics.html">1. Fondamentaux de R</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basics/annexe.html">2. A markdown test</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="zipf/index.html">Projet 1 : Loi de Zipf</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label for="toctree-checkbox-2"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="zipf/02_zipf.html">1. Loi de zipf</a></li>
 </ul>
 </li>
 </ul>
@@ -136,10 +139,13 @@
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">Structure du site</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="xiaoou/index.html">Partie programmation fondamentale</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="xiaoou/01_basics.html">1. Fondamentaux de R</a></li>
-<li class="toctree-l2"><a class="reference internal" href="xiaoou/02_zipf.html">2. Loi de zipf</a></li>
-<li class="toctree-l2"><a class="reference internal" href="xiaoou/annexe.html">3. A markdown test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basics/index.html">Partie programmation fondamentale</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="basics/01_basics.html">1. Fondamentaux de R</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basics/annexe.html">2. A markdown test</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="zipf/index.html">Projet 1 : Loi de Zipf</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="zipf/02_zipf.html">1. Loi de zipf</a></li>
 </ul>
 </li>
 </ul>
@@ -150,7 +156,7 @@
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="xiaoou/index.html">
+          <a class="next-page" href="basics/index.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
@@ -170,7 +176,7 @@
               <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
               <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
             |
-            <a class="muted-link" href="sources/index.rst.txt"
+            <a class="muted-link" href="_sources/index.rst.txt"
                rel="nofollow">
               Montrer le code source
             </a>

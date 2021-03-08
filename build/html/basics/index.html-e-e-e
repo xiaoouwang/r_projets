@@ -1,13 +1,13 @@
 <!doctype html>
 <html class="no-js">
   <head><meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Recherche" href="search.html" /><link rel="next" title="Partie programmation fondamentale" href="basics/index.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Recherche" href="../search.html" /><link rel="next" title="1. Fondamentaux de R" href="01_basics.html" /><link rel="prev" title="Welcome to R projets en linguistique informatique" href="../index.html" />
 
     <meta name="generator" content="sphinx-3.5.1, furo 2021.02.28.beta28"/>
-        <title>Home - Documentation R projets en lingustique informatique</title>
-      <link rel="stylesheet" href="static/styles/furo.css">
-    <link rel="stylesheet" href="static/pygments.css">
-    <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="static/pygments_dark.css">
+        <title>Partie programmation fondamentale - Documentation R projets en lingustique informatique</title>
+      <link rel="stylesheet" href="../static/styles/furo.css?digest=be5985a4059b5c2cd56ed0804790452beca62674">
+    <link rel="stylesheet" href="../static/pygments.css">
+    <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="../static/pygments_dark.css">
     
 
 
@@ -36,7 +36,7 @@
   --color-code-foreground: #d0d0d0;
   
   }
-</style><link rel="stylesheet" href="static/styles/furo-extensions.css"></head>
+</style><link rel="stylesheet" href="../static/styles/furo-extensions.css?digest=d391b54134226e4196576da3bdb6dddb7e05ba2b"></head>
   <body dir="">
     
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -85,7 +85,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="#"><div class="brand">Documentation R projets en lingustique informatique </div></a>
+      <a href="../index.html"><div class="brand">Documentation R projets en lingustique informatique </div></a>
     </div>
     <div class="header-right">
       <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
@@ -96,25 +96,25 @@
   <aside class="sidebar-drawer">
     <div class="sidebar-container">
       
-      <div class="sidebar-sticky"><a class="sidebar-brand" href="#">
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
   
   
   <span class="sidebar-brand-text">Documentation R projets en lingustique informatique </span>
   
-</a><form class="sidebar-search-container" method="get" action="search.html">
+</a><form class="sidebar-search-container" method="get" action="../search.html">
   <input class="sidebar-search" placeholder=Recherche name="q">
   <input type="hidden" name="check_keywords" value="yes">
   <input type="hidden" name="area" value="default">
 </form><div class="sidebar-scroll"><div class="sidebar-tree">
   <p class="caption"><span class="caption-text">Structure du site</span></p>
-<ul>
-<li class="toctree-l1 has-children"><a class="reference internal" href="basics/index.html">Partie programmation fondamentale</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="basics/01_basics.html">1. Fondamentaux de R</a></li>
-<li class="toctree-l2"><a class="reference internal" href="basics/annexe.html">2. A markdown test</a></li>
+<ul class="current">
+<li class="toctree-l1 current has-children current-page"><a class="current reference internal" href="#">Partie programmation fondamentale</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="01_basics.html">1. Fondamentaux de R</a></li>
+<li class="toctree-l2"><a class="reference internal" href="annexe.html">2. A markdown test</a></li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="zipf/index.html">Projet 1 : Loi de Zipf</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label for="toctree-checkbox-2"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="zipf/02_zipf.html">1. Loi de zipf</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../zipf/index.html">Projet 1 : Loi de Zipf</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label for="toctree-checkbox-2"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../zipf/02_zipf.html">1. Loi de zipf</a></li>
 </ul>
 </li>
 </ul>
@@ -131,23 +131,17 @@
         <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
-        <div class="section" id="welcome-to-r-projets-en-linguistique-informatique">
-<h1>Welcome to R projets en linguistique informatique<a class="headerlink" href="#welcome-to-r-projets-en-linguistique-informatique" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Les étudiants en tal/linguistique informatique souffrent souvent d’un manque de pratique.</p>
-<p>Pourtant, tout apprentissage passe par la pratique. C’est pour cette raison que je partage ici une série de tutoriels traitant respectivement un problème particulier.</p>
-<p>A bientôt :D</p>
+        <div class="section" id="partie-programmation-fondamentale">
+<h1>Partie programmation fondamentale<a class="headerlink" href="#partie-programmation-fondamentale" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Ce site regroupe des projets en linguistique informatique réalisés avec R.</p>
 <div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Structure du site</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="basics/index.html">Partie programmation fondamentale</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="basics/01_basics.html">1. Fondamentaux de R</a></li>
-<li class="toctree-l2"><a class="reference internal" href="basics/annexe.html">2. A markdown test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="01_basics.html">1. Fondamentaux de R</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="01_basics.html#Eléments-généraux-de-programmation">1.1. Eléments généraux de programmation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="01_basics.html#References">1.2. References</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="zipf/index.html">Projet 1 : Loi de Zipf</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="zipf/02_zipf.html">1. Loi de zipf</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="annexe.html">2. A markdown test</a></li>
 </ul>
 </div>
 </div>
@@ -156,16 +150,26 @@
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="basics/index.html">
+          <a class="next-page" href="01_basics.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Partie programmation fondamentale</div>
+                <div class="title"><span class="section-number">1. </span>Fondamentaux de R</div>
               </div>
               <svg><use href="#svg-arrow-right"></use></svg>
             </a>
-          
+          <a class="prev-page" href="../index.html">
+              <svg><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Home</div>
+                
+              </div>
+            </a>
         </div>
 
         <div class="related-information">
@@ -176,7 +180,7 @@
               <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
               <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
             |
-            <a class="muted-link" href="_sources/index.rst.txt"
+            <a class="muted-link" href="../_sources/basics/index.rst.txt"
                rel="nofollow">
               Montrer le code source
             </a>
@@ -191,11 +195,11 @@
     </aside>
   </main>
 </div>
-    <script id="documentation_options" data-url_root="./" src="static/documentation_options.js"></script>
-    <script src="static/jquery.js"></script>
-    <script src="static/underscore.js"></script>
-    <script src="static/doctools.js"></script>
-    <script src="static/translations.js"></script>
+    <script id="documentation_options" data-url_root="../" src="../static/documentation_options.js"></script>
+    <script src="../static/jquery.js"></script>
+    <script src="../static/underscore.js"></script>
+    <script src="../static/doctools.js"></script>
+    <script src="../static/translations.js"></script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="static/scripts/main.js"></script></body>
+    <script src="../static/scripts/main.js?digest=e931d09b2a40c1bb82b542effe772014573baf67"></script></body>
 </html>
