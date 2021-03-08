@@ -141,7 +141,7 @@
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="sources/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -163,6 +163,7 @@
 <li class="toctree-l2"><a class="reference internal" href="xiaoou/01_linux.html">1. wino data related</a></li>
 <li class="toctree-l2"><a class="reference internal" href="xiaoou/02_ipython.html">2. wino pmi</a></li>
 <li class="toctree-l2"><a class="reference internal" href="xiaoou/03_numpy.html">3. wino-biblio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xiaoou/test.html">4. wino test</a></li>
 </ul>
 </li>
 </ul>
