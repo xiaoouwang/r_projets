@@ -176,13 +176,13 @@ item uses two lines.</p></li>
 <li><p>It has two items too.</p></li>
 </ol>
 <p class="caption"><span class="caption-text">Code </span></p>
-<div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;hello&quot;</span><span class="p">)</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
 </pre></div>
-</td></tr></table></div>
+</div>
 <p class="caption"><span class="caption-text">Results</span></p>
-<div class="highlight-none notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span>hello
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>
 </pre></div>
-</td></tr></table></div>
+</div>
 </div>
 
 

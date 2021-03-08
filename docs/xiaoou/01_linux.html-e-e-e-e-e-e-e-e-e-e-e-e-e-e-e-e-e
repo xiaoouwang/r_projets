@@ -33,6 +33,7 @@
         <script src="../static/underscore.js"></script>
         <script src="../static/doctools.js"></script>
         <script src="../static/translations.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="../static/js/theme.js"></script>
 
@@ -91,7 +92,6 @@
 <li class="toctree-l2 current"><a class="current reference internal" href="#">1. wino data related</a></li>
 <li class="toctree-l2"><a class="reference internal" href="02_ipython.html">2. wino pmi</a></li>
 <li class="toctree-l2"><a class="reference internal" href="03_numpy.html">3. wino-biblio</a></li>
-<li class="toctree-l2"><a class="reference internal" href="test.html">4. wino test</a></li>
 </ul>
 </li>
 </ul>
@@ -176,6 +176,47 @@ item uses two lines.</p></li>
 <li><p>This is a numbered list.</p></li>
 <li><p>It has two items too.</p></li>
 </ol>
+<p class="caption"><span class="caption-text">Code </span></p>
+<div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;hello&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</pre></div>
+</td></tr></table></div>
+<p class="caption"><span class="caption-text">Results</span></p>
+<div class="highlight-none notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="highlight"><pre><span></span>hello
+0
+1
+2
+3
+4
+</pre></div>
+</td></tr></table></div>
+<p>(<a class="reference external" href="../xiaoou/01_linux-1.py">Source code</a>, <a class="reference external" href="../xiaoou/01_linux-1.png">png</a>, <a class="reference external" href="../xiaoou/01_linux-1.hires.png">hires.png</a>, <a class="reference external" href="../xiaoou/01_linux-1.pdf">pdf</a>)</p>
+<div class="figure align-default">
+<img alt="../_images/01_linux-1.png" src="../_images/01_linux-1.png" />
+</div>
+<p>(<a class="reference external" href="../xiaoou/01_linux-2.py">Source code</a>, <a class="reference external" href="../xiaoou/01_linux-2.png">png</a>, <a class="reference external" href="../xiaoou/01_linux-2.hires.png">hires.png</a>, <a class="reference external" href="../xiaoou/01_linux-2.pdf">pdf</a>)</p>
+<div class="figure align-default">
+<img alt="../_images/01_linux-2.png" src="../_images/01_linux-2.png" />
+</div>
+<div class="highlight-ipython notranslate"><div class="highlight"><pre><span></span><span class="gp">In [69]: </span><span class="n">lines</span> <span class="o">=</span> <span class="n">plot</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
+
+<span class="gp">In [70]: </span><span class="n">setp</span><span class="p">(</span><span class="n">lines</span><span class="p">)</span>
+<span class="go">  alpha: float</span>
+<span class="go">  animated: [True | False]</span>
+<span class="go">  antialiased or aa: [True | False]</span>
+<span class="go">  ...snip</span>
+</pre></div>
+</div>
+<div class="math notranslate nohighlight">
+\[W^{3\beta}_{\delta_1 \rho_1 \sigma_2} \approx U^{3\beta}_{\delta_1 \rho_1}\]</div>
 </div>
 
 
