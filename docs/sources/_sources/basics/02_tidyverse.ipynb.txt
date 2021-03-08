@@ -1,0 +1,284 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "ideal-advertising",
+   "metadata": {},
+   "source": [
+    "# Tidyverse worflow"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "stable-tours",
+   "metadata": {
+    "ExecuteTime": {
+     "end_time": "2021-03-08T18:15:38.507923Z",
+     "start_time": "2021-03-08T18:15:38.487Z"
+    }
+   },
+   "outputs": [],
+   "source": [
+    "options(warn=-1)\n",
+    "options(messages=-1)\n",
+    "options(tidyverse.quiet = TRUE)\n",
+    "options(dplyr.summarise.inform = FALSE)\n",
+    "shhh <- suppressWarnings # It's a library, so shhh!\n",
+    "shhh(library(tidyverse))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "fatal-deficit",
+   "metadata": {
+    "ExecuteTime": {
+     "end_time": "2021-03-08T18:01:56.489218Z",
+     "start_time": "2021-03-08T18:01:55.992Z"
+    }
+   },
+   "outputs": [],
+   "source": [
+    "## ---------------------------------------------------------------------------------------------------\n",
+    "vow.dur <- read.table(\"https://bit.ly/2Iw7kn7\", header=TRUE, sep=\"\\t\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "fatal-trustee",
+   "metadata": {
+    "ExecuteTime": {
+     "end_time": "2021-03-08T18:08:26.670117Z",
+     "start_time": "2021-03-08T18:08:26.641Z"
+    }
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<table>\n",
+       "<caption>A data.frame: 7 × 6</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>vowel</th><th scope=col>US_state</th><th scope=col>position</th><th scope=col>context</th><th scope=col>vowel_duration</th><th scope=col>mean_vow_dur</th></tr>\n",
+       "\t<tr><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>aɪ</td><td>NorthC</td><td>Ccontext</td><td>voiceless</td><td>216.6</td><td>203.9143</td></tr>\n",
+       "\t<tr><td>æ </td><td>NorthC</td><td>Ccontext</td><td>voiceless</td><td>214.8</td><td>203.9143</td></tr>\n",
+       "\t<tr><td>aɪ</td><td>NorthC</td><td>Vemph   </td><td>voiceless</td><td>209.2</td><td>203.9143</td></tr>\n",
+       "\t<tr><td>æ </td><td>NorthC</td><td>Vemph   </td><td>voiceless</td><td>202.7</td><td>203.9143</td></tr>\n",
+       "\t<tr><td>æ </td><td>Ohio  </td><td>Ccontext</td><td>voiceless</td><td>198.5</td><td>203.9143</td></tr>\n",
+       "\t<tr><td>e </td><td>NorthC</td><td>Ccontext</td><td>voiceless</td><td>193.9</td><td>203.9143</td></tr>\n",
+       "\t<tr><td>e </td><td>NorthC</td><td>Vemph   </td><td>voiceless</td><td>191.7</td><td>203.9143</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A data.frame: 7 × 6\n",
+       "\\begin{tabular}{llllll}\n",
+       " vowel & US\\_state & position & context & vowel\\_duration & mean\\_vow\\_dur\\\\\n",
+       " <fct> & <fct> & <fct> & <fct> & <dbl> & <dbl>\\\\\n",
+       "\\hline\n",
+       "\t aɪ & NorthC & Ccontext & voiceless & 216.6 & 203.9143\\\\\n",
+       "\t æ  & NorthC & Ccontext & voiceless & 214.8 & 203.9143\\\\\n",
+       "\t aɪ & NorthC & Vemph    & voiceless & 209.2 & 203.9143\\\\\n",
+       "\t æ  & NorthC & Vemph    & voiceless & 202.7 & 203.9143\\\\\n",
+       "\t æ  & Ohio   & Ccontext & voiceless & 198.5 & 203.9143\\\\\n",
+       "\t e  & NorthC & Ccontext & voiceless & 193.9 & 203.9143\\\\\n",
+       "\t e  & NorthC & Vemph    & voiceless & 191.7 & 203.9143\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A data.frame: 7 × 6\n",
+       "\n",
+       "| vowel &lt;fct&gt; | US_state &lt;fct&gt; | position &lt;fct&gt; | context &lt;fct&gt; | vowel_duration &lt;dbl&gt; | mean_vow_dur &lt;dbl&gt; |\n",
+       "|---|---|---|---|---|---|\n",
+       "| aɪ | NorthC | Ccontext | voiceless | 216.6 | 203.9143 |\n",
+       "| æ  | NorthC | Ccontext | voiceless | 214.8 | 203.9143 |\n",
+       "| aɪ | NorthC | Vemph    | voiceless | 209.2 | 203.9143 |\n",
+       "| æ  | NorthC | Vemph    | voiceless | 202.7 | 203.9143 |\n",
+       "| æ  | Ohio   | Ccontext | voiceless | 198.5 | 203.9143 |\n",
+       "| e  | NorthC | Ccontext | voiceless | 193.9 | 203.9143 |\n",
+       "| e  | NorthC | Vemph    | voiceless | 191.7 | 203.9143 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  vowel US_state position context   vowel_duration mean_vow_dur\n",
+       "1 aɪ    NorthC   Ccontext voiceless 216.6          203.9143    \n",
+       "2 æ     NorthC   Ccontext voiceless 214.8          203.9143    \n",
+       "3 aɪ    NorthC   Vemph    voiceless 209.2          203.9143    \n",
+       "4 æ     NorthC   Vemph    voiceless 202.7          203.9143    \n",
+       "5 æ     Ohio     Ccontext voiceless 198.5          203.9143    \n",
+       "6 e     NorthC   Ccontext voiceless 193.9          203.9143    \n",
+       "7 e     NorthC   Vemph    voiceless 191.7          203.9143    "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "# main dplyr functions\n",
+    "vow.dur %>%\n",
+    "  filter(context == \"voiceless\" & Vow_dur_ms > mean(Vow_dur_ms, na.rm = TRUE)) %>%\n",
+    "  arrange(desc(Vow_dur_ms)) %>%\n",
+    "#   select(contains(\"_\")) %>%\n",
+    "# explain why some vow_dur > mean\n",
+    "  mutate(mean_vow_dur = mean(Vow_dur_ms, na.rm = TRUE)) %>%\n",
+    "  rename(vowel_duration = Vow_dur_ms)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "continental-radius",
+   "metadata": {
+    "ExecuteTime": {
+     "end_time": "2021-03-08T18:15:40.672792Z",
+     "start_time": "2021-03-08T18:15:40.645Z"
+    }
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<table>\n",
+       "<caption>A grouped_df: 6 × 3</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>US_state</th><th scope=col>context</th><th scope=col>mean</th></tr>\n",
+       "\t<tr><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>NorthC</td><td>voiced   </td><td>235.74</td></tr>\n",
+       "\t<tr><td>NorthC</td><td>voiceless</td><td>186.26</td></tr>\n",
+       "\t<tr><td>Ohio  </td><td>voiced   </td><td>213.90</td></tr>\n",
+       "\t<tr><td>Ohio  </td><td>voiceless</td><td>156.94</td></tr>\n",
+       "\t<tr><td>Wisc  </td><td>voiced   </td><td>194.59</td></tr>\n",
+       "\t<tr><td>Wisc  </td><td>voiceless</td><td>147.14</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A grouped\\_df: 6 × 3\n",
+       "\\begin{tabular}{lll}\n",
+       " US\\_state & context & mean\\\\\n",
+       " <fct> & <fct> & <dbl>\\\\\n",
+       "\\hline\n",
+       "\t NorthC & voiced    & 235.74\\\\\n",
+       "\t NorthC & voiceless & 186.26\\\\\n",
+       "\t Ohio   & voiced    & 213.90\\\\\n",
+       "\t Ohio   & voiceless & 156.94\\\\\n",
+       "\t Wisc   & voiced    & 194.59\\\\\n",
+       "\t Wisc   & voiceless & 147.14\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A grouped_df: 6 × 3\n",
+       "\n",
+       "| US_state &lt;fct&gt; | context &lt;fct&gt; | mean &lt;dbl&gt; |\n",
+       "|---|---|---|\n",
+       "| NorthC | voiced    | 235.74 |\n",
+       "| NorthC | voiceless | 186.26 |\n",
+       "| Ohio   | voiced    | 213.90 |\n",
+       "| Ohio   | voiceless | 156.94 |\n",
+       "| Wisc   | voiced    | 194.59 |\n",
+       "| Wisc   | voiceless | 147.14 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  US_state context   mean  \n",
+       "1 NorthC   voiced    235.74\n",
+       "2 NorthC   voiceless 186.26\n",
+       "3 Ohio     voiced    213.90\n",
+       "4 Ohio     voiceless 156.94\n",
+       "5 Wisc     voiced    194.59\n",
+       "6 Wisc     voiceless 147.14"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "# advanced dplyr functions\n",
+    "\n",
+    "vow.dur %>%\n",
+    "  group_by(US_state, context) %>%\n",
+    "  summarise(mean = mean(Vow_dur_ms))"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "R",
+   "language": "R",
+   "name": "ir"
+  },
+  "language_info": {
+   "codemirror_mode": "r",
+   "file_extension": ".r",
+   "mimetype": "text/x-r-source",
+   "name": "R",
+   "pygments_lexer": "r",
+   "version": "3.6.3"
+  },
+  "nbTranslate": {
+   "displayLangs": [
+    "*"
+   ],
+   "hotkey": "alt-t",
+   "langInMainMenu": true,
+   "sourceLang": "en",
+   "targetLang": "fr",
+   "useGoogleTranslate": true
+  },
+  "toc": {
+   "base_numbering": 1,
+   "nav_menu": {},
+   "number_sections": true,
+   "sideBar": false,
+   "skip_h1_title": true,
+   "title_cell": "Table des matières",
+   "title_sidebar": "Contents",
+   "toc_cell": false,
+   "toc_position": {},
+   "toc_section_display": true,
+   "toc_window_display": false
+  },
+  "varInspector": {
+   "cols": {
+    "lenName": 16,
+    "lenType": 16,
+    "lenVar": 40
+   },
+   "kernels_config": {
+    "python": {
+     "delete_cmd_postfix": "",
+     "delete_cmd_prefix": "del ",
+     "library": "var_list.py",
+     "varRefreshCmd": "print(var_dic_list())"
+    },
+    "r": {
+     "delete_cmd_postfix": ") ",
+     "delete_cmd_prefix": "rm(",
+     "library": "var_list.r",
+     "varRefreshCmd": "cat(var_dic_list()) "
+    }
+   },
+   "types_to_exclude": [
+    "module",
+    "function",
+    "builtin_function_or_method",
+    "instance",
+    "_Feature"
+   ],
+   "window_display": false
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
