@@ -149,7 +149,7 @@
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../sources/base/01_linux.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/base/01_linux.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -164,6 +164,17 @@
             
   <div class="section" id="wino-data-related">
 <h1><span class="section-number">1. </span>wino data related<a class="headerlink" href="#wino-data-related" title="Lien permanent vers ce titre">¶</a></h1>
+<ul class="simple">
+<li><p>This is a bulleted list.</p></li>
+<li><p>It has two items, the second
+item uses two lines.</p></li>
+</ul>
+<ol class="arabic simple">
+<li><p>This is a numbered list.</p></li>
+<li><p>It has two items too.</p></li>
+<li><p>This is a numbered list.</p></li>
+<li><p>It has two items too.</p></li>
+</ol>
 <div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
 <span class="gp">... </span>   <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
 <span class="gp">... </span>
