@@ -1,4 +1,4 @@
-xiaoou wang
+Partie programmation fondamentale
 ==========
 
 Ce site regroupe des projets en linguistique informatique réalisés avec R.

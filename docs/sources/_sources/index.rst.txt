@@ -8,7 +8,7 @@ Welcome to R projets en linguistique informatique
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Structure du site
    :glob:
 
    xiaoou/index

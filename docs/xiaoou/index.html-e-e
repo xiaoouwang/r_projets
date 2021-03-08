@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>xiaoou wang &mdash; Documentation R projets en lingustique informatique </title>
+  <title>Partie programmation fondamentale &mdash; Documentation R projets en lingustique informatique </title>
   
 
   
@@ -86,9 +86,9 @@
               
             
             
-              <p class="caption"><span class="caption-text">Contents:</span></p>
+              <p class="caption"><span class="caption-text">Structure du site</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">xiaoou wang</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Partie programmation fondamentale</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="01_intro.html">1. Motivation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="01_basics.html">2. Fondamentaux de R</a></li>
 <li class="toctree-l2"><a class="reference internal" href="02_zipf.html">3. Loi de zipf</a></li>
@@ -143,7 +143,7 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>xiaoou wang</li>
+      <li>Partie programmation fondamentale</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -186,8 +186,8 @@
     text-align: unset;
 }
 </style>
-<div class="section" id="xiaoou-wang">
-<h1>xiaoou wang<a class="headerlink" href="#xiaoou-wang" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="partie-programmation-fondamentale">
+<h1>Partie programmation fondamentale<a class="headerlink" href="#partie-programmation-fondamentale" title="Lien permanent vers ce titre">¶</a></h1>
 <p>Ce site regroupe des projets en linguistique informatique réalisés avec R.</p>
 <div class="toctree-wrapper compound">
 <ul>

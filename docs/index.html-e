@@ -40,7 +40,7 @@
     
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Recherche" href="search.html" />
-    <link rel="next" title="xiaoou wang" href="xiaoou/index.html" /> 
+    <link rel="next" title="Partie programmation fondamentale" href="xiaoou/index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -85,9 +85,9 @@
               
             
             
-              <p class="caption"><span class="caption-text">Contents:</span></p>
+              <p class="caption"><span class="caption-text">Structure du site</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="xiaoou/index.html">xiaoou wang</a></li>
+<li class="toctree-l1"><a class="reference internal" href="xiaoou/index.html">Partie programmation fondamentale</a></li>
 </ul>
 
             
@@ -182,9 +182,9 @@
 <div class="section" id="welcome-to-r-projets-en-linguistique-informatique">
 <h1>Welcome to R projets en linguistique informatique<a class="headerlink" href="#welcome-to-r-projets-en-linguistique-informatique" title="Lien permanent vers ce titre">¶</a></h1>
 <div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Contents:</span></p>
+<p class="caption"><span class="caption-text">Structure du site</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="xiaoou/index.html">xiaoou wang</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="xiaoou/index.html">Partie programmation fondamentale</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="xiaoou/01_intro.html">1. Motivation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="xiaoou/01_basics.html">2. Fondamentaux de R</a></li>
 <li class="toctree-l2"><a class="reference internal" href="xiaoou/02_zipf.html">3. Loi de zipf</a></li>
@@ -201,7 +201,7 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="xiaoou/index.html" class="btn btn-neutral float-right" title="xiaoou wang" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="xiaoou/index.html" class="btn btn-neutral float-right" title="Partie programmation fondamentale" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
