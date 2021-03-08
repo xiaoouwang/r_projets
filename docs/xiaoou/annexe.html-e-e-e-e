@@ -5,7 +5,7 @@
 
     <meta name="generator" content="sphinx-3.5.1, furo 2021.02.28.beta28"/>
         <title>3. A markdown test - Documentation R projets en lingustique informatique</title>
-      <link rel="stylesheet" href="../static/styles/furo.css?digest=be5985a4059b5c2cd56ed0804790452beca62674">
+      <link rel="stylesheet" href="../static/styles/furo.css">
     <link rel="stylesheet" href="../static/pygments.css">
     <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="../static/pygments_dark.css">
     
@@ -36,7 +36,7 @@
   --color-code-foreground: #d0d0d0;
   
   }
-</style><link rel="stylesheet" href="../static/styles/furo-extensions.css?digest=d391b54134226e4196576da3bdb6dddb7e05ba2b"></head>
+</style><link rel="stylesheet" href="../static/styles/furo-extensions.css"></head>
   <body dir="">
     
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -131,7 +131,7 @@
         <div class="section" id="a-markdown-test">
 <h1><span class="section-number">3. </span>A markdown test<a class="headerlink" href="#a-markdown-test" title="Lien permanent vers ce titre">¶</a></h1>
 <p>It works.</p>
-<p><img alt="../images/2021-03-08-15-57-53.png" src="../images/2021-03-08-15-57-53.png"/></p>
+<p><img alt="../_images/2021-03-08-15-57-53.png" src="../_images/2021-03-08-15-57-53.png"/></p>
 </div>
 
       </article>
@@ -181,5 +181,5 @@
     <script src="../static/doctools.js"></script>
     <script src="../static/translations.js"></script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="../static/scripts/main.js?digest=e931d09b2a40c1bb82b542effe772014573baf67"></script></body>
+    <script src="../static/scripts/main.js"></script></body>
 </html>

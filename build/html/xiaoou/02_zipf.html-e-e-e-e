@@ -541,7 +541,7 @@ div.rendered_html tbody tr:hover {
               <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
               <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
             |
-            <a class="muted-link" href="../sources/xiaoou/02_zipf.ipynb.txt"
+            <a class="muted-link" href="../_sources/xiaoou/02_zipf.ipynb.txt"
                rel="nofollow">
               Montrer le code source
             </a>
