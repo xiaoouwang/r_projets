@@ -7,12 +7,12 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>this is a test &mdash; Documentation winograd-fr </title>
+  <title>this is a test &mdash; Documentation R projets en lingustique informatique </title>
   
 
   
-  <link rel="stylesheet" href="../static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
 
   
   
@@ -24,18 +24,18 @@
 
   
   <!--[if lt IE 9]>
-    <script src="../static/js/html5shiv.min.js"></script>
+    <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
     
-      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../static/documentation_options.js"></script>
-        <script src="../static/jquery.js"></script>
-        <script src="../static/underscore.js"></script>
-        <script src="../static/doctools.js"></script>
-        <script src="../static/translations.js"></script>
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/translations.js"></script>
         <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     
-    <script type="text/javascript" src="../static/js/theme.js"></script>
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
 
     
     <link rel="index" title="Index" href="../genindex.html" />
@@ -53,7 +53,7 @@
           
 
           
-            <a href="../index.html" class="icon icon-home"> winograd-fr
+            <a href="../index.html" class="icon icon-home"> R projets en lingustique informatique
           
 
           
@@ -102,7 +102,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">winograd-fr</a>
+          <a href="../index.html">R projets en lingustique informatique</a>
         
       </nav>
 
@@ -481,7 +481,7 @@ div.rendered_html tbody tr:hover {
 
   <div role="contentinfo">
     <p>
-        &#169; Copyright 2021, lattice.
+        &#169; Copyright 2021, Xiaoou Wang.
 
     </p>
   </div>
