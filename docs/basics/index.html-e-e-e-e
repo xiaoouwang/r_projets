@@ -110,7 +110,6 @@
 <ul class="current">
 <li class="toctree-l1 current has-children current-page"><a class="current reference internal" href="#">Partie programmation fondamentale</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="01_basics.html">1. Fondamentaux de R</a></li>
-<li class="toctree-l2"><a class="reference internal" href="annexe.html">2. A markdown test</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../zipf/index.html">Projet 1 : Loi de Zipf</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label for="toctree-checkbox-2"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -141,7 +140,6 @@
 <li class="toctree-l2"><a class="reference internal" href="01_basics.html#References">1.2. References</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="annexe.html">2. A markdown test</a></li>
 </ul>
 </div>
 </div>

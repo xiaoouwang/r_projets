@@ -15,7 +15,6 @@ A bientôt :D
 .. toctree::
    :maxdepth: 2
    :caption: Structure du site
-
    :glob:
 
    basics/index

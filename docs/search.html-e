@@ -108,7 +108,6 @@
 <ul>
 <li class="toctree-l1 has-children"><a class="reference internal" href="basics/index.html">Partie programmation fondamentale</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="basics/01_basics.html">1. Fondamentaux de R</a></li>
-<li class="toctree-l2"><a class="reference internal" href="basics/annexe.html">2. A markdown test</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="zipf/index.html">Projet 1 : Loi de Zipf</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label for="toctree-checkbox-2"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>

@@ -9,5 +9,3 @@ Ce site regroupe des projets en linguistique informatique réalisés avec R.
     :numbered: 2
 
     01_basics.ipynb
-    02_zipf.ipynb
-    annexe.md
