@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>1. a R example &mdash; Documentation winograd-fr </title>
+  <title>1. a R example &mdash; Documentation R projets en lingustique informatique </title>
   
 
   
@@ -54,7 +54,7 @@
           
 
           
-            <a href="../index.html" class="icon icon-home"> winograd-fr
+            <a href="../index.html" class="icon icon-home"> R projets en lingustique informatique
           
 
           
@@ -106,7 +106,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">winograd-fr</a>
+          <a href="../index.html">R projets en lingustique informatique</a>
         
       </nav>
 
@@ -147,7 +147,7 @@
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../sources/xiaoou/02_zipf.ipynb.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/xiaoou/02_zipf.ipynb.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -480,7 +480,7 @@ div.rendered_html tbody tr:hover {
 
   <div role="contentinfo">
     <p>
-        &#169; Copyright 2021, lattice.
+        &#169; Copyright 2021, Xiaoou Wang.
 
     </p>
   </div>

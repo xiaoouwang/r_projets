@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'winograd-fr'
-copyright = '2021, lattice'
-author = 'lattice members'
+project = 'R projets en lingustique informatique'
+copyright = '2021, Xiaoou Wang'
+author = 'Xiaoou Wang'
 
 
 # -- General configuration ---------------------------------------------------

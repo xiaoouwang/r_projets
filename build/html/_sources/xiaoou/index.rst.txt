@@ -1,7 +1,7 @@
 xiaoou wang
 ==========
 
-Ceci est une ébauche pour la documentation de winograd-fr.
+Ce site regroupe des projets en linguistique informatique réalisés avec R.
 
 .. toctree::
     :maxdepth: 2
