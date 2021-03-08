@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>xiaoou wang &mdash; Documentation winograd-fr </title>
+  <title>xiaoou wang &mdash; Documentation R projets en lingustique informatique </title>
   
 
   
@@ -55,7 +55,7 @@
           
 
           
-            <a href="../index.html" class="icon icon-home"> winograd-fr
+            <a href="../index.html" class="icon icon-home"> R projets en lingustique informatique
           
 
           
@@ -89,7 +89,8 @@
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">xiaoou wang</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="02_zipf.html">1. a R example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="01_basics.html">1. Fondamentaux de R</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_zipf.html">2. Loi de zipf</a></li>
 </ul>
 </li>
 </ul>
@@ -107,7 +108,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">winograd-fr</a>
+          <a href="../index.html">R projets en lingustique informatique</a>
         
       </nav>
 
@@ -146,7 +147,7 @@
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../_sources/xiaoou/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../sources/xiaoou/index.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -185,10 +186,19 @@
 </style>
 <div class="section" id="xiaoou-wang">
 <h1>xiaoou wang<a class="headerlink" href="#xiaoou-wang" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Ceci est une ébauche pour la documentation de winograd-fr.</p>
+<p>Ce site regroupe des projets en linguistique informatique réalisés avec R.</p>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="02_zipf.html">1. a R example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="01_basics.html">1. Fondamentaux de R</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="01_basics.html#References">1.1. References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="02_zipf.html">2. Loi de zipf</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="02_zipf.html#Motivation">2.1. Motivation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_zipf.html#Choisir-3-auteurs-de-3-langues-différentes">2.2. Choisir 3 auteurs de 3 langues différentes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_zipf.html#Colle-les-éléments-du-vecteur-texte-en-un-vecteur-de-caractères-de-longueur-1">2.3. Colle les éléments du vecteur texte en un vecteur de caractères de longueur 1</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -207,7 +217,7 @@
 
   <div role="contentinfo">
     <p>
-        &#169; Copyright 2021, lattice.
+        &#169; Copyright 2021, Xiaoou Wang.
 
     </p>
   </div>

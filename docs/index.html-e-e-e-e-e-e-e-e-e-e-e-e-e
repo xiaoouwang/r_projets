@@ -33,6 +33,7 @@
         <script src="static/underscore.js"></script>
         <script src="static/doctools.js"></script>
         <script src="static/translations.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     
     <script type="text/javascript" src="static/js/theme.js"></script>
 
@@ -154,16 +155,37 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="welcome-to-wino-fr-s-documentation">
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="section" id="welcome-to-wino-fr-s-documentation">
 <h1>Welcome to wino-fr’s documentation!<a class="headerlink" href="#welcome-to-wino-fr-s-documentation" title="Lien permanent vers ce titre">¶</a></h1>
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="xiaoou/index.html">xiaoou wang</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="xiaoou/01_linux.html">1. wino data related</a></li>
-<li class="toctree-l2"><a class="reference internal" href="xiaoou/02_ipython.html">2. wino pmi</a></li>
-<li class="toctree-l2"><a class="reference internal" href="xiaoou/03_numpy.html">3. wino-biblio</a></li>
-<li class="toctree-l2"><a class="reference internal" href="xiaoou/test.html">4. wino test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xiaoou/02_zipf.html">1. a R example</a></li>
 </ul>
 </li>
 </ul>
