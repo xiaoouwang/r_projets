@@ -12,6 +12,7 @@ cd ../docs
 cp -rf _images images
 grep -rl static . | xargs sed -i -e "s/_images/images/g"
 grep -rl sources . | xargs sed -i -e "s/_images/images/g"
+grep -rl . . | sed -i -e "s/\?digest.*\"/\"/g"
 cd ..
 git add .
 git commit -m "refresh"
