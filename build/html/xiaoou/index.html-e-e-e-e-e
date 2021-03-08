@@ -92,6 +92,7 @@
 <li class="toctree-l2"><a class="reference internal" href="01_intro.html">1. Motivation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="01_basics.html">2. Fondamentaux de R</a></li>
 <li class="toctree-l2"><a class="reference internal" href="02_zipf.html">3. Loi de zipf</a></li>
+<li class="toctree-l2"><a class="reference internal" href="annexe.html">4. A markdown test</a></li>
 </ul>
 </li>
 </ul>
@@ -148,7 +149,7 @@
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../sources/xiaoou/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/xiaoou/index.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -202,6 +203,7 @@
 <li class="toctree-l2"><a class="reference internal" href="02_zipf.html#Colle-les-éléments-du-vecteur-texte-en-un-vecteur-de-caractères-de-longueur-1">3.3. Colle les éléments du vecteur texte en un vecteur de caractères de longueur 1</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="annexe.html">4. A markdown test</a></li>
 </ul>
 </div>
 </div>
