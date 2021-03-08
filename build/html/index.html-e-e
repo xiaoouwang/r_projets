@@ -142,7 +142,7 @@
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="sources/index.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -181,7 +181,8 @@
 </style>
 <div class="section" id="welcome-to-r-projets-en-linguistique-informatique">
 <h1>Welcome to R projets en linguistique informatique<a class="headerlink" href="#welcome-to-r-projets-en-linguistique-informatique" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Les étudiants en tal/linguistique informatique souffrent souvent d’un manque de pratique. Pourtant, tout apprentissage passe par la pratique. C’est pour cette raison que je partage ici une série de tutoriels traitant respectivement un problème particulier.</p>
+<p>Les étudiants en tal/linguistique informatique souffrent souvent d’un manque de pratique.</p>
+<p>Pourtant, tout apprentissage passe par la pratique. C’est pour cette raison que je partage ici une série de tutoriels traitant respectivement un problème particulier.</p>
 <p>A bientôt :D</p>
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">Structure du site</span></p>
