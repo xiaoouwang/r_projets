@@ -17,4 +17,5 @@ A bientôt :D
    :caption: Structure du site
    :glob:
 
-   xiaoou/index
+   basics/index
+   zipf/index
