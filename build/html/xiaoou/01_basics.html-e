@@ -88,9 +88,9 @@
               
             
             
-              <p class="caption"><span class="caption-text">Contents:</span></p>
+              <p class="caption"><span class="caption-text">Structure du site</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">xiaoou wang</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Partie programmation fondamentale</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="01_intro.html">1. Motivation</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">2. Fondamentaux de R</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#Eléments-généraux-de-programmation">2.1. Eléments généraux de programmation</a></li>
@@ -98,7 +98,6 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="02_zipf.html">3. Loi de zipf</a></li>
-<li class="toctree-l2"><a class="reference internal" href="annexe.html">4. A test on image</a></li>
 </ul>
 </li>
 </ul>
@@ -149,7 +148,7 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-          <li><a href="index.html">xiaoou wang</a> &raquo;</li>
+          <li><a href="index.html">Partie programmation fondamentale</a> &raquo;</li>
         
       <li><span class="section-number">2. </span>Fondamentaux de R</li>
     

@@ -142,7 +142,7 @@
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="sources/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -187,6 +187,7 @@
 <li class="toctree-l1"><a class="reference internal" href="xiaoou/index.html">xiaoou wang</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="xiaoou/01_basics.html">1. Fondamentaux de R</a></li>
 <li class="toctree-l2"><a class="reference internal" href="xiaoou/02_zipf.html">2. Loi de zipf</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xiaoou/annexe.html">3. A test on image</a></li>
 </ul>
 </li>
 </ul>

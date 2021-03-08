@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>&lt;no title&gt; &mdash; Documentation R projets en lingustique informatique </title>
+  <title>1. Motivation &mdash; Documentation R projets en lingustique informatique </title>
   
 
   
@@ -40,7 +40,7 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Recherche" href="../search.html" />
-    <link rel="next" title="1. Fondamentaux de R" href="01_basics.html" />
+    <link rel="next" title="2. Fondamentaux de R" href="01_basics.html" />
     <link rel="prev" title="xiaoou wang" href="index.html" /> 
 </head>
 
@@ -87,8 +87,14 @@
             
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="index.html">xiaoou wang</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">xiaoou wang</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">1. Motivation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="01_basics.html">2. Fondamentaux de R</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_zipf.html">3. Loi de zipf</a></li>
+<li class="toctree-l2"><a class="reference internal" href="annexe.html">4. A test on image</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -139,13 +145,13 @@
         
           <li><a href="index.html">xiaoou wang</a> &raquo;</li>
         
-      <li>&lt;no title&gt;</li>
+      <li><span class="section-number">1. </span>Motivation</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../_sources/xiaoou/01_intro.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../sources/xiaoou/01_intro.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -182,9 +188,11 @@
     text-align: unset;
 }
 </style>
-<p># Motivation</p>
+<div class="section" id="motivation">
+<h1><span class="section-number">1. </span>Motivation<a class="headerlink" href="#motivation" title="Lien permanent vers ce titre">¶</a></h1>
 <p>Les étudiants en tal/linguistique informatique souffrent souvent d’un manque de pratique. Pourtant, tout apprentissage passe par la pratique. C’est pour cette raison que je partage ici une série de tutoriels traitant respectivement un problème particulier.</p>
 <p>A bientôt :D</p>
+</div>
 
 
            </div>
@@ -192,7 +200,7 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="01_basics.html" class="btn btn-neutral float-right" title="1. Fondamentaux de R" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="01_basics.html" class="btn btn-neutral float-right" title="2. Fondamentaux de R" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
         <a href="index.html" class="btn btn-neutral float-left" title="xiaoou wang" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
